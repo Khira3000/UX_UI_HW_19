@@ -1,0 +1,366 @@
+.inline-block li {
+  display: inline-block;
+  vertical-align: top;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2% 2% 2% 2%;
+}
+
+.logo {
+  width: 2%;
+  padding: 1%;
+  text-align: center;
+  }
+
+nav { 
+list-style-type: none;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+.inline-block ul {
+  width: 20%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+
+header {
+background-color:#30CCA7;
+margin: 0;
+padding: 0;
+outline: #30CCA7 solid 10px;
+
+}
+
+.boxes {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+}
+
+.tools p {
+text-align: left;
+}
+
+
+.content {
+max-width: 500px;   
+margin: 0 auto;
+}
+
+
+
+section {
+  height: 2700px;
+  
+  display: grid;
+  padding: 5%; 
+  grid-template-columns: auto ;
+  gap: 1%;
+  margin: 4%;
+  
+  
+  
+ 
+ 
+
+          
+  
+  
+
+}
+
+section h1 {
+padding: 1%;
+
+
+}
+
+.movingup {
+margin-top: -10%;
+
+padding: 20px;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+
+
+
+
+
+}
+
+hr {
+display: block;
+height: 1px;
+border: 0;
+border-top: 1px solid #ccc;
+margin: 1em 0;
+padding: 0;
+margin-top: 10%;
+}
+
+
+
+
+
+.movingup h2 {
+font-weight: normal;
+text-align: center;
+padding: 1%;
+background-color:#F2ED82;
+width: 7%;
+height: 9px;
+
+
+
+
+
+
+}
+
+.movingup p {
+text-align: left;
+
+width: 900px;
+height: 68px;
+
+margin-top: 7%;
+margin-left: -30%;
+
+
+
+
+}
+
+.movingup img {
+
+float: right; 
+margin-right: 1%;
+}
+
+.movingup button {
+
+width: 150px;
+height: 40px;
+background-color: #FFFFFF;
+font-size: medium;
+margin-left: 46%;
+}
+
+
+
+.youngatheart {
+margin-top: -10%;
+background-color: rgba(255, 255, 255, 0.8);
+padding: 20px;
+display: flex;
+flex-flow: row-reverse wrap;
+justify-content: space-between;
+}
+
+
+
+
+
+
+
+.youngatheart h2 {
+font-weight: normal;
+text-align: center;
+padding: 1%;
+background-color:#F2ED82;
+width: 10%;
+height: 9px;
+float: right;
+
+
+
+
+
+}
+
+.youngatheart p {
+text-align: right;
+float: right;
+width: 900px;
+height: 68px;
+
+margin-top: 7%;
+margin-right: -30%;
+
+
+
+
+}
+
+.youngatheart img {
+
+margin: 1% 1% 1% 1%; 
+display: inline-block;
+
+}
+
+.youngatheart button {
+
+width: 150px;
+height: 40px;
+background-color: #FFFFFF;
+font-size: medium;
+margin-left: 44%;
+
+
+
+
+
+
+
+}
+
+
+.card {
+width: 300px;
+height: 150px;
+padding: 50px;
+margin: 20px;
+text-align: center;
+font-family: sans-serif;
+}
+
+.skills p {
+text-align: left;
+}
+
+.skills {
+margin-left: 1%;
+}
+
+.tools {
+margin-left: 1%;
+}
+
+h3 { 
+text-decoration: underline;
+font-family: sans-serif;
+
+}
+
+h1 {
+  font-family: sans-serif; 
+  font-size: 32px; 
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h2 { font-family: sans-serif;
+  text-align: center; 
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  padding: 0;
+  margin: 0%;
+}
+
+p { 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  text-align: center; 
+}
+
+button {
+background-color: #30CCA7;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+footer {
+  background-color: #999595;
+  outline: #999595 solid 10px;
+  padding: 70px;
+  color: black;
+  display: flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+}
+
+.greeting {
+  text-align: center;
+  margin: -3.5%;
+  
+}
+
+ .contact-info {
+  position:absolute;
+  margin-left: auto;
+margin-right: auto;
+}
+
+.accordion-header {
+  
+  transition: background-color .3s;
+  cursor: pointer;
+}
+
+.accordion-header button {
+  background-color: transparent;
+  border: none;
+  font-size: 2.5rem;
+}
+
+
+
+.accordion-header:hover {
+  background-color: #e2e2e2;
+}
+
+
+.accordion-body {
+  background-color: #30CCA7;
+  display: none;
+}
+
+.accordion.active .accordion-body {
+  display: block;
+}
+
+
+
+
+@media screen and (max-width: 600) {
+  
+  .card {display: flex;
+      flex-direction: column;
+      max-width: 100%; }
+
+  section {display: grid;
+      margin: 0x 5%; 
+      grid-template-columns: 1fr ;
+      
+  }
+  
+  
+  
+  
+ 
+
+}
+
+
+
+
+
+
+
+
