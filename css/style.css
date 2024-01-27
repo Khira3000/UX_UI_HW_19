@@ -91,6 +91,7 @@ padding: 20px;
 display: flex;
 flex-flow: row wrap;
 justify-content: space-between;
+margin: auto;
 
 
 
@@ -169,6 +170,7 @@ padding: 20px;
 display: flex;
 flex-flow: row-reverse wrap;
 justify-content: space-between;
+margin: auto;
 }
 
 
