@@ -60,7 +60,7 @@ margin: 0 auto;
 
 section {
   height: 2700px;
-  
+  padding: 25px;
   display: grid;
   padding: 5%; 
   grid-template-columns: auto ;
@@ -86,11 +86,15 @@ padding: 1%;
 
 .movingup {
 margin-top: -10%;
-
+background-color: rgba(255, 255, 255, 0.8);
 padding: 20px;
 display: flex;
 flex-flow: row wrap;
 justify-content: space-between;
+
+
+
+
 
 
 
