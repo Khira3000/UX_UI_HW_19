@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+navbar {
+    background-color: rgb(21, 153, 153);
+}
+
+.nav-link {
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration:none;
+
+}
+
+.nav-link:hover {
+    color: white;
+    background-color:  #30CCA7;
+
+
+}
+
+.jumbotron {
+    background-image: url("/images/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100%; 
+  }
+
+
+
+
+
+  .about {
+    margin-top: -4%;
+    background-color:  #30CCA7;
+    padding:3%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+     }
+
+    .research {
+        background-color: white;
+        padding:3%;
+        
+        
+         }
+    
+         .defintion {
+            background-color:  #30CCA7;
+            padding:3%;
+            direction: rtl;
+            
+            
+            }
+            
+             
+
+             .ideation {
+                background-color: white;
+                padding:3%;
+                
+                 }
+
+                 .prototyping{
+                    background-color:  #30CCA7;
+                    padding:3%;
+                    direction: rtl;
+                    
+                     }
+
+                     .testing {
+                        background-color: white;
+                        padding:3%;
+                        
+                         }
+                         
+                         .reflection {
+                            background-color:  #30CCA7;
+                            padding:3%;
+                            direction: rtl;
+                            
+                             }
+
+
+.research h2 {
+    padding:0.5%;
+    background-color: #ED0909;
+    opacity: 0.7;
+    display: inline-block;
+    
+    
+    
+    
+}
+
+.research p {
+    margin-top: 2%;
+    word-break:break-all;
+    
+}
+
+
+
+
+
+
+.defintion h2 {
+    padding:0.5%;
+    background-color: #CDBBFF;
+    text-align: right;
+    display: inline-block;
+    
+    
+    
+    
+}
+
+.defintion p {
+    margin-top: 2%;
+    text-align: right;
+    word-wrap: break-word;
+
+    
+}
+
+
+
+
+
+.ideation h2 {
+    padding:0.5%;
+    background-color: #E9E12E;
+    opacity: 0.7;
+    display: inline-block;
+
+    
+}
+
+.ideation p {
+    margin-top: 2%;
+    word-break:break-all;
+}
+
+
+
+
+
+
+
+
+.prototyping h2 {
+    
+    background-color: #F46B6B;
+    text-align:right;
+    padding: 0.5%;
+    display: inline-block;
+    
+  
+
+}
+
+
+.prototyping p {
+    
+    text-align: right;
+    margin-top: 2%;
+    word-wrap: break-word;
+   
+}
+
+
+.testing h2{
+    padding:0.5%;
+    background-color: #AC8EFF;
+    opacity: 0.7;
+    display: inline-block;
+    
+
+
+}
+
+.testing p {
+    margin-top: 2%;
+    word-wrap: break-word;
+    
+}
+
+
+
+
+
+
+
+
+
+.reflection h2{
+    padding:0.5%;
+    background-color: #F2ED82;
+    text-align: right;
+    display: inline-block;
+    
+}
+
+
+
+.reflection p {
+    margin-top: 2%;
+    text-align:center;
+    word-wrap: break-word;
+}
+
